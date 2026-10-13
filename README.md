@@ -1,14 +1,27 @@
 ## Hi, I'm Ikram 👋
 
 **AI/ML Engineer & Data Scientist** in Islamabad, finishing an MS in Data Science at Quaid-e-Azam University.
-I build LLM agents, retrieval systems and data products, and I **measure whether they work**: held-out test splits,
-ablations, confidence intervals, and honest write-ups of what did not.
+I build LLM agents, RAG systems and AI products that people use, and I **measure whether they work**: held-out test
+splits, ablations, confidence intervals, and honest write-ups of what did not. **30+ projects** so far, for clients and
+for this portfolio.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ikram4748.github.io-4f46e5?style=flat-square)](https://ikram4748.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ikram--ullah11-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ikram-ullah11)
 [![Email](https://img.shields.io/badge/Email-ikramullah4748%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ikramullah4748@gmail.com)
 
 🟢 Open to AI/ML engineering, data science and ML research roles: onsite or hybrid in Islamabad/Rawalpindi, or remote.
+
+### 🏥 Live product
+
+**VSARA**, a healthcare platform of four connected apps on Google Play (built at Syslab Technologies): patients talk to
+an AI assistant by text or voice that answers from medical content (RAG), helps with symptom triage and schedules
+appointments through agent workflows. React Native · Django REST · Supabase · LLM APIs · speech · n8n.
+A/B tests of prompts and retrieval raised diagnostic response accuracy by 23%; data and model fixes cut the error rate by 18%.
+[SARA Life](https://play.google.com/store/apps/details?id=com.vsarapatientapp) ·
+[SARA Care](https://play.google.com/store/apps/details?id=com.vsaradoctorapp) ·
+[SARA Pharmacy](https://play.google.com/store/apps/details?id=com.vsarapharmacyapp) ·
+[Flexa](https://play.google.com/store/apps/details?id=com.flexaSARA) (published for Malaysia only) ·
+[demo video](https://lnkd.in/p/d5A5T3us)
 
 ### 🔭 Featured projects
 
@@ -19,6 +32,18 @@ ablations, confidence intervals, and honest write-ups of what did not.
 | [**Customer-Ops Agent**](https://github.com/ikram4748/customer-ops-agent) | Support agent that takes real actions behind a gateway: policy in code, confirmation codes, human approval via interrupts, idempotent refunds | 30 held-out scenarios: **100% success, 0 policy violations** vs 90% and 3 violations (incl. a double refund) for a prompt-only agent |
 | [**Financial RAG Lab**](https://github.com/ikram4748/financial-rag-lab) | Which RAG choices matter? Chunking, metadata scope, BM25/dense/hybrid, rerankers, HyDE on FinanceBench | Retrieval is the bottleneck: answer accuracy naive 24% → best config 47% → **+HyDE 61%** (+14 pts, 95% CI [+5, +23]); oracle 84% |
 | [**Literature Review Agents**](https://github.com/ikram4748/research-assistant-agent) | Multi-agent reviewer (arXiv + OpenAlex) where every finding quotes its source verbatim and a critic checks citations | 97% sentence support for both; citation precision 87% vs 80% (CI includes zero); judge fixed: wrong-citation catch rate **48% → 90%** |
+
+### 💼 Client work (code private)
+
+Built for clients, so the code is not public; happy to walk through any of them.
+
+| Area | Projects |
+|---|---|
+| LLM apps & agents | AI e-mail template generator (React Native + GPT-4o-mini) · multi-agent content team (CrewAI) · autonomous data analyst (LLM-written pandas in a sandbox) |
+| Computer vision | MedVision: chest X-ray pneumonia detection with Grad-CAM (CNN vs ResNet50 vs EfficientNetB0) · DetectPro: YOLOv8 object detection, 30+ FPS on GPU |
+| Data science | Stroke-risk prediction (imbalanced, SHAP) · ChurnGuard (7,043 customers, 0.847 AUC) · FraudShield (1.7% fraud rate, SHAP + LIME) · TimeVision (ARIMA/SARIMA/Prophet/LSTM forecasting) · RecEngine (SVD, KNN, hybrid; NDCG) |
+| NLP | TextMiner: TextRank/LSA vs T5 summarization (ROUGE), LDA vs BERTopic topics |
+| Mobile | JSuiteCloud, an ERP app on the Apple App Store (React Native, TypeScript) |
 
 **Also:** *Qanoon Assist* (private), a legal-information RAG over 117,365 sections of Pakistani law in English, Urdu and
 Roman Urdu (hit@5 1.00, faithfulness 0.944); and my MS thesis *UrduComicLab*, complete Urdu stories → right-to-left
@@ -40,7 +65,7 @@ comics with open-weight models (spoken lines printed 0.49 → 1.00 vs baseline).
 
 **LLM agents & RAG:** LangGraph, function calling, multi-agent pipelines, hybrid retrieval, cross-encoder reranking, evaluation & guardrails
 **ML & stats:** PyTorch, LightGBM/XGBoost, Vision Transformers, A/B testing, causal inference, uplift modeling
-**Engineering:** Python, SQL, FastAPI, Docker, React, pytest
+**Engineering:** Python, TypeScript, SQL, FastAPI, Django REST, React, React Native, Docker, pytest
 
 ### 📫 Reach me
 The quickest way is [e-mail](mailto:ikramullah4748@gmail.com) or [LinkedIn](https://www.linkedin.com/in/ikram-ullah11). CVs are on my [portfolio](https://ikram4748.github.io).
